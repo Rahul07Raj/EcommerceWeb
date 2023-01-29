@@ -6,13 +6,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-header{
-  background-color: #404040;
+.site-container{
+  min-height: 100vh;
+}
+main{
+   flex: 1;
+}
+.btn-primary{
+  background-color: #f0c040;
+  color: black;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rating span{
+  color: #ffc000;
+}
+.product{
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img{
+  width: 100%;
+  max-width: 300px;
+}
+.product-info{
   padding: 1rem;
 }
-header a{
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
+.img-large{
+  max-width: 100%;
 }
